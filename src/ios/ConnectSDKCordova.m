@@ -443,6 +443,7 @@ static id orNull (id obj)
         @"deviceId": [[self getOrCreateDeviceState:device] deviceId],
         @"ipAddress": orNull(device.address),
         @"friendlyName": orNull(device.friendlyName),
+        @"groupInfo": orNull(device.groupInfo),
         @"modelName": orNull(device.modelName),
         @"modelNumber": orNull(device.modelNumber),
         @"capabilities": [device capabilities],
