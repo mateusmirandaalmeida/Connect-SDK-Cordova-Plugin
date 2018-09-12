@@ -435,6 +435,7 @@ var DiscoveryManager = createClass(
                 this._started = true;
             } else if (event === "stopdiscovery") {
                 this._started = false;
+                this._devices = {};
             }
 
             if (event === "devicefound" || event === "devicelost" || event === "deviceupdated") {
