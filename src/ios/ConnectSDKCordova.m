@@ -444,6 +444,8 @@ static id orNull (id obj)
         @"ipAddress": orNull(device.address),
         @"friendlyName": orNull(device.friendlyName),
         @"groupInfo": orNull(device.groupInfo),
+        @"householdId": orNull(device.householdId),
+        @"websocketUrl": orNull(device.websocketUrl),
         @"modelName": orNull(device.modelName),
         @"modelNumber": orNull(device.modelNumber),
         @"capabilities": [device capabilities],
