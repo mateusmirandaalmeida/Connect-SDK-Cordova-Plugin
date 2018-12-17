@@ -21,6 +21,7 @@
 #import <Foundation/Foundation.h>
 
 #import "DiscoveryProvider.h"
+#import "ConnectSDK-Swift.h"
 
 @interface SSDPDiscoveryProvider : DiscoveryProvider
 
