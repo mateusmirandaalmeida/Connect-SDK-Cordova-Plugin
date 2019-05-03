@@ -20,7 +20,7 @@ if (!isMac) {
 	};
 
 	var paths = {
-		"GoogleCastSDK_URL": "https://developers.google.com/cast/downloads/GoogleCastSDK-2.7.1-Release-ios-default.zip",
+		"GoogleCastSDK_URL": "https://dl.google.com/dl/chromecast/sdk/ios/GoogleCastSDK-2.7.1-Release-ios-default.zip",
 		"GoogleCast_Framework": "./csdk_tmp/GoogleCastSDK-2.7.1-Release/GoogleCast.framework"
 	};
 
