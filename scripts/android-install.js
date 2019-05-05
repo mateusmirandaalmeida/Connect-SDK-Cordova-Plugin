@@ -14,7 +14,7 @@ var commands = {
 };
 
 var paths = {
-	"ConnectSDK_Repository": "https://github.com/boedy/Connect-SDK-Android.git",
+	"ConnectSDK_Repository": "https://github.com/mateusmirandaalmeida/Connect-SDK-Cordova-Plugin.git",
 	"ConnectSDK_Tag": "master",
 };
 
